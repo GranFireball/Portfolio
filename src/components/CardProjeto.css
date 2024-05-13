@@ -1,0 +1,17 @@
+.linkProjeto{
+  overflow: hidden;
+  width: 220px;
+  height: 140px;
+  border: 1px solid black;
+}
+
+.imgProjeto{
+  width: 220px;
+  height: 140px;
+  transition: transform 1s;
+  object-fit: cover;
+}
+
+.imgProjeto:hover{
+  transform: scale(1.2);
+}

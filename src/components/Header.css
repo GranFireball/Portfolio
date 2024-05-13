@@ -1,0 +1,33 @@
+header{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+  height: 82px;
+  backdrop-filter: blur(3px);
+
+}
+
+.curriculoPDF{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.redesSociaisContainer{
+  display: flex;
+  gap: 20px;
+
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover{
+  color: #c4c4c4;
+}

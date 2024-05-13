@@ -1,0 +1,7 @@
+.habilidadeContainer{
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  border-bottom: 0.5px solid black;
+}
