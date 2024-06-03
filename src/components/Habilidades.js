@@ -5,7 +5,7 @@ import { IoLogoAngular, IoLogoCss3, IoLogoFigma, IoLogoHtml5, IoLogoJavascript, 
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiMongodb, DiScrum } from "react-icons/di";
 import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
-import { SiExpress, SiJest, SiJunit5, SiMui, SiPostman, SiTestinglibrary } from "react-icons/si";
+import { SiExpress, SiJest, SiJunit5, SiMui, SiNestjs, SiPostman, SiRedux, SiSpringboot, SiStyledcomponents, SiTestinglibrary } from "react-icons/si";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 
 export default function Habilidades(){
@@ -13,18 +13,22 @@ export default function Habilidades(){
   const habilidades = [
     {nome: "HTML", icone: <IoLogoHtml5 size={tamanhoIcone}/>},
     {nome: "CSS", icone: <IoLogoCss3 size={tamanhoIcone}/>},
+    {nome: "Styled-Components", icone: <SiStyledcomponents size={tamanhoIcone}/>},
     {nome: "Bootstrap", icone: <FaBootstrap size={tamanhoIcone}/>},
     {nome: "Tailwind CSS", icone: <RiTailwindCssFill size={tamanhoIcone}/>},
     {nome: "Material UI", icone: <SiMui size={tamanhoIcone}/>},
     {nome: "JavaScript", icone: <IoLogoJavascript size={tamanhoIcone}/>},
     {nome: "TypeScript", icone: <BiLogoTypescript size={tamanhoIcone}/>},
     {nome: "Java", icone: <FaJava size={tamanhoIcone}/>},
+    {nome: "Spring Boot", icone: <SiSpringboot size={tamanhoIcone}/>},
     {nome: "Python", icone: <IoLogoPython size={tamanhoIcone}/>},
     {nome: "Angular", icone: <IoLogoAngular size={tamanhoIcone}/>},
     {nome: "React", icone: <IoLogoReact size={tamanhoIcone}/>},
+    {nome: "Redux", icone: <SiRedux size={tamanhoIcone}/>},
     {nome: "Testing Library", icone: <SiTestinglibrary size={tamanhoIcone}/>},
     {nome: "Next.js", icone: <RiNextjsFill size={tamanhoIcone}/>},
     {nome: "Node.js", icone: <IoLogoNodejs size={tamanhoIcone}/>},
+    {nome: "NestJS", icone: <SiNestjs size={tamanhoIcone}/>},
     {nome: "Express.js", icone: <SiExpress size={tamanhoIcone}/>},
     {nome: "MongoDB", icone: <DiMongodb size={tamanhoIcone}/>},
     {nome: "PostgreSQL", icone: <BiLogoPostgresql size={tamanhoIcone}/>},
