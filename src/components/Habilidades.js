@@ -5,7 +5,7 @@ import { IoLogoAngular, IoLogoCss3, IoLogoFigma, IoLogoHtml5, IoLogoJavascript, 
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiMongodb, DiScrum } from "react-icons/di";
 import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
-import { SiExpress, SiJest, SiJunit5, SiMui, SiNestjs, SiPostman, SiRedux, SiSpringboot, SiStyledcomponents, SiTestinglibrary } from "react-icons/si";
+import { SiExpress, SiJest, SiJunit5, SiMui, SiNestjs, SiPostman, SiRedux, SiSocketdotio, SiSpringboot, SiStyledcomponents, SiTestinglibrary, SiZod } from "react-icons/si";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 
 export default function Habilidades(){
@@ -34,6 +34,8 @@ export default function Habilidades(){
     {nome: "PostgreSQL", icone: <BiLogoPostgresql size={tamanhoIcone}/>},
     {nome: "Jest", icone: <SiJest size={tamanhoIcone}/>},
     {nome: "JUnit", icone: <SiJunit5 size={tamanhoIcone}/>},
+    {nome: "Zod", icone: <SiZod size={tamanhoIcone}/>},
+    {nome: "Socket.IO", icone: <SiSocketdotio size={tamanhoIcone}/>},
     {nome: "Figma", icone: <IoLogoFigma size={tamanhoIcone}/>},
     {nome: "Postman", icone: <SiPostman size={tamanhoIcone}/>},
     {nome: "Git", icone: <FaGitAlt size={tamanhoIcone}/>},
